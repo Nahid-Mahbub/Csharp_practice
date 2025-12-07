@@ -49,7 +49,7 @@ for (int i = (value1.Length) - 1, j = (value2.Length) - 1; i >= 0 || j >= 0; i--
     Console.WriteLine($"{i}, {j}");
     
 }
-
+Console.Write("Final answer: ");
 foreach (int Val in dynamicArray)
 {
     Console.Write(Val);
