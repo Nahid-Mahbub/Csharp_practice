@@ -14,3 +14,4 @@ for (int i = 0; i < num.Count - 1; i++)
     Console.Write('+');
 }
 Console.Write(num[num.Count - 1]);
+Console.WriteLine();
