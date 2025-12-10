@@ -27,6 +27,7 @@ for (int i = 0; i < dynamicChar.Count; i++)
     Console.Write(dynamicChar[i]);
 }
 Console.WriteLine();
+
 for (int i = 0; i < dynamicChar.Count; i++)
 {
     Console.Write('.');

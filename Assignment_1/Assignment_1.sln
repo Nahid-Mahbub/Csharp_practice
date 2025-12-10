@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "112A - Petya and Strings", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "118A - String Task", "118A - String Task\118A - String Task.csproj", "{3465A71F-B6C9-40AF-A467-539A205880BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "339A - Helpful Maths", "339A - Helpful Maths\339A - Helpful Maths.csproj", "{3A6F1E45-5300-4D8C-A884-3B316F0678AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{3465A71F-B6C9-40AF-A467-539A205880BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3465A71F-B6C9-40AF-A467-539A205880BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3465A71F-B6C9-40AF-A467-539A205880BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6F1E45-5300-4D8C-A884-3B316F0678AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6F1E45-5300-4D8C-A884-3B316F0678AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6F1E45-5300-4D8C-A884-3B316F0678AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6F1E45-5300-4D8C-A884-3B316F0678AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
