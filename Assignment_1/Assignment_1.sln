@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4A - Watermelon", "4A - Wat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "282A - Bit++", "282A - Bit++\282A - Bit++.csproj", "{63261464-6E57-49B9-8472-87285D10F48F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "263A - Beautiful Matrix", "263A - Beautiful Matrix\263A - Beautiful Matrix.csproj", "{51C2943A-44DB-4834-8815-698AEAFBB243}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{63261464-6E57-49B9-8472-87285D10F48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63261464-6E57-49B9-8472-87285D10F48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63261464-6E57-49B9-8472-87285D10F48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C2943A-44DB-4834-8815-698AEAFBB243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C2943A-44DB-4834-8815-698AEAFBB243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C2943A-44DB-4834-8815-698AEAFBB243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C2943A-44DB-4834-8815-698AEAFBB243}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
