@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "282A - Bit++", "282A - Bit+
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "263A - Beautiful Matrix", "263A - Beautiful Matrix\263A - Beautiful Matrix.csproj", "{51C2943A-44DB-4834-8815-698AEAFBB243}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71A - Way Too Long Words", "71A - Way Too Long Words\71A - Way Too Long Words.csproj", "{242A3FB8-38C3-44A2-865E-CF6E550A1519}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{51C2943A-44DB-4834-8815-698AEAFBB243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51C2943A-44DB-4834-8815-698AEAFBB243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51C2943A-44DB-4834-8815-698AEAFBB243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242A3FB8-38C3-44A2-865E-CF6E550A1519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242A3FB8-38C3-44A2-865E-CF6E550A1519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242A3FB8-38C3-44A2-865E-CF6E550A1519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242A3FB8-38C3-44A2-865E-CF6E550A1519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
