@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71A - Way Too Long Words", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "112A - Petya and Strings", "112A - Petya and Strings\112A - Petya and Strings.csproj", "{6E5A6ED6-59A4-45CC-B3BC-3F45E2806D13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "118A - String Task", "118A - String Task\118A - String Task.csproj", "{3465A71F-B6C9-40AF-A467-539A205880BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6E5A6ED6-59A4-45CC-B3BC-3F45E2806D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E5A6ED6-59A4-45CC-B3BC-3F45E2806D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E5A6ED6-59A4-45CC-B3BC-3F45E2806D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3465A71F-B6C9-40AF-A467-539A205880BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3465A71F-B6C9-40AF-A467-539A205880BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3465A71F-B6C9-40AF-A467-539A205880BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3465A71F-B6C9-40AF-A467-539A205880BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
