@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "118A - String Task", "118A 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "339A - Helpful Maths", "339A - Helpful Maths\339A - Helpful Maths.csproj", "{3A6F1E45-5300-4D8C-A884-3B316F0678AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "266A - Stones on the Table", "266A - Stones on the Table\266A - Stones on the Table.csproj", "{8D693634-8552-4482-A69C-03C9100EBA69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{3A6F1E45-5300-4D8C-A884-3B316F0678AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A6F1E45-5300-4D8C-A884-3B316F0678AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A6F1E45-5300-4D8C-A884-3B316F0678AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D693634-8552-4482-A69C-03C9100EBA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D693634-8552-4482-A69C-03C9100EBA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D693634-8552-4482-A69C-03C9100EBA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D693634-8552-4482-A69C-03C9100EBA69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
