@@ -15,8 +15,8 @@ for (int i = 1; i < input.Length; i++)
 
     if (counter == 7)
     {
-        Console.Write("Yes");
+        Console.WriteLine("YES");
         return;
     }
 }
-Console.Write("No");
+Console.WriteLine("NO");
