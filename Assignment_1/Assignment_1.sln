@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "96A - Football", "96A - Foo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "546A - Soldier and Bananas", "546A - Soldier and Bananas\546A - Soldier and Bananas.csproj", "{073A004C-2802-4E22-9B38-97F2D334A341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "791A - Bear and Big Brother", "791A - Bear and Big Brother\791A - Bear and Big Brother.csproj", "{6C34B328-9D16-4BE8-AA5A-E889FA0CAE9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{073A004C-2802-4E22-9B38-97F2D334A341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{073A004C-2802-4E22-9B38-97F2D334A341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{073A004C-2802-4E22-9B38-97F2D334A341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C34B328-9D16-4BE8-AA5A-E889FA0CAE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C34B328-9D16-4BE8-AA5A-E889FA0CAE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C34B328-9D16-4BE8-AA5A-E889FA0CAE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C34B328-9D16-4BE8-AA5A-E889FA0CAE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
