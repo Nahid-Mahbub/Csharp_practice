@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977A - Wrong Subtraction", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "617A - Elephant", "617A - Elephant\617A - Elephant.csproj", "{F3829404-F57A-4898-8723-8C3F61E0F35F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59A - Word", "59A - Word\59A - Word.csproj", "{A1DE9B53-8055-4010-A18C-032446D886F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{F3829404-F57A-4898-8723-8C3F61E0F35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3829404-F57A-4898-8723-8C3F61E0F35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3829404-F57A-4898-8723-8C3F61E0F35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DE9B53-8055-4010-A18C-032446D886F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DE9B53-8055-4010-A18C-032446D886F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DE9B53-8055-4010-A18C-032446D886F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DE9B53-8055-4010-A18C-032446D886F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
