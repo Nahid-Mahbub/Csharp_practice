@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "546A - Soldier and Bananas"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "791A - Bear and Big Brother", "791A - Bear and Big Brother\791A - Bear and Big Brother.csproj", "{6C34B328-9D16-4BE8-AA5A-E889FA0CAE9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977A - Wrong Subtraction", "977A - Wrong Subtraction\977A - Wrong Subtraction.csproj", "{7DBB530B-98FE-41B6-AAC1-59D4666CE582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{6C34B328-9D16-4BE8-AA5A-E889FA0CAE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C34B328-9D16-4BE8-AA5A-E889FA0CAE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C34B328-9D16-4BE8-AA5A-E889FA0CAE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBB530B-98FE-41B6-AAC1-59D4666CE582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBB530B-98FE-41B6-AAC1-59D4666CE582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBB530B-98FE-41B6-AAC1-59D4666CE582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBB530B-98FE-41B6-AAC1-59D4666CE582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
