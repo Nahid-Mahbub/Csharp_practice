@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "617A - Elephant", "617A - E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59A - Word", "59A - Word\59A - Word.csproj", "{A1DE9B53-8055-4010-A18C-032446D886F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "116A - Tram", "116A - Tram\116A - Tram.csproj", "{63A676B6-25F9-45F7-A4C3-E5E6AC157DEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{A1DE9B53-8055-4010-A18C-032446D886F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1DE9B53-8055-4010-A18C-032446D886F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1DE9B53-8055-4010-A18C-032446D886F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A676B6-25F9-45F7-A4C3-E5E6AC157DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A676B6-25F9-45F7-A4C3-E5E6AC157DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A676B6-25F9-45F7-A4C3-E5E6AC157DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A676B6-25F9-45F7-A4C3-E5E6AC157DEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
