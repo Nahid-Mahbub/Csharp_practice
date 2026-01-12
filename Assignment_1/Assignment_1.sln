@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "133A - HQ9+", "133A - HQ9+\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1742A - Sum", "1742A - Sum\1742A - Sum.csproj", "{11290DEB-842F-4419-95CD-311A0FC0127C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "443A - Anton and Letters", "443A - Anton and Letters\443A - Anton and Letters.csproj", "{B47BBE16-15AB-4075-8A18-8E8AF16D0623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{11290DEB-842F-4419-95CD-311A0FC0127C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11290DEB-842F-4419-95CD-311A0FC0127C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11290DEB-842F-4419-95CD-311A0FC0127C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47BBE16-15AB-4075-8A18-8E8AF16D0623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47BBE16-15AB-4075-8A18-8E8AF16D0623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47BBE16-15AB-4075-8A18-8E8AF16D0623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47BBE16-15AB-4075-8A18-8E8AF16D0623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
