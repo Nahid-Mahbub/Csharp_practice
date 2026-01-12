@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-HashSet<char> newSet = new HashSet<char>();
+﻿HashSet<char> newSet = new HashSet<char>();
 string input = Console.ReadLine();
 
 input = input.Trim('{', '}');
