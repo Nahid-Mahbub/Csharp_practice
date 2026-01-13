@@ -4,8 +4,8 @@
     .ToArray();
 Array.Sort(input);
 
-Console.Write(input[3] - input[0]);
+Console.Write(input[3] - input[2]);
 Console.Write(" ");
 Console.Write(input[3] - input[1]);
 Console.Write(" ");
-Console.Write(input[3] - input[2]);
+Console.Write(input[3] - input[0]);
