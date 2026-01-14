@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1154A - Restoring Three Num
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1328A - Divisibility Problem", "1328A - Divisibility Problem\1328A - Divisibility Problem.csproj", "{57847F54-F458-4A54-89B3-4C9A82B0D999}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1335A - Candies and Two Sisters", "1335A - Candies and Two Sisters\1335A - Candies and Two Sisters.csproj", "{99F2ADF0-A277-425C-8D08-D01848AC8223}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{57847F54-F458-4A54-89B3-4C9A82B0D999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57847F54-F458-4A54-89B3-4C9A82B0D999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57847F54-F458-4A54-89B3-4C9A82B0D999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F2ADF0-A277-425C-8D08-D01848AC8223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F2ADF0-A277-425C-8D08-D01848AC8223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F2ADF0-A277-425C-8D08-D01848AC8223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F2ADF0-A277-425C-8D08-D01848AC8223}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
