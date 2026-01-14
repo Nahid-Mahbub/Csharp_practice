@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1328A - Divisibility Proble
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1335A - Candies and Two Sisters", "1335A - Candies and Two Sisters\1335A - Candies and Two Sisters.csproj", "{99F2ADF0-A277-425C-8D08-D01848AC8223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1343B - Balanced Array", "1343B - Balanced Array\1343B - Balanced Array.csproj", "{DE0E34DA-6F67-43FA-A459-D37D8501ADD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{99F2ADF0-A277-425C-8D08-D01848AC8223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99F2ADF0-A277-425C-8D08-D01848AC8223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F2ADF0-A277-425C-8D08-D01848AC8223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0E34DA-6F67-43FA-A459-D37D8501ADD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0E34DA-6F67-43FA-A459-D37D8501ADD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0E34DA-6F67-43FA-A459-D37D8501ADD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0E34DA-6F67-43FA-A459-D37D8501ADD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
