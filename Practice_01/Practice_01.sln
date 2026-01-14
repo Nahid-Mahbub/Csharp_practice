@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4A - Watermelon", "4A - Wat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdonetExample", "AdonetExample\AdonetExample.csproj", "{8CDAF0C7-3AF9-4C61-B82A-C05FF50B17E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{4C7B3E5B-3DD8-4B1B-AC22-CD2494964101}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8CDAF0C7-3AF9-4C61-B82A-C05FF50B17E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CDAF0C7-3AF9-4C61-B82A-C05FF50B17E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CDAF0C7-3AF9-4C61-B82A-C05FF50B17E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7B3E5B-3DD8-4B1B-AC22-CD2494964101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7B3E5B-3DD8-4B1B-AC22-CD2494964101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7B3E5B-3DD8-4B1B-AC22-CD2494964101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7B3E5B-3DD8-4B1B-AC22-CD2494964101}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
