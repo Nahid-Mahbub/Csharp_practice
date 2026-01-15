@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.3.11312.210 d18.3
+VisualStudioVersion = 18.3.11312.210
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4A - Watermelon", "4A - Watermelon\4A - Watermelon.csproj", "{B3CFD384-37B7-4B24-8BB0-EB75BF456E3B}"
 EndProject
@@ -52,6 +52,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1335A - Candies and Two Sisters", "1335A - Candies and Two Sisters\1335A - Candies and Two Sisters.csproj", "{99F2ADF0-A277-425C-8D08-D01848AC8223}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1343B - Balanced Array", "1343B - Balanced Array\1343B - Balanced Array.csproj", "{DE0E34DA-6F67-43FA-A459-D37D8501ADD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1352A - Sum of Round Numbers", "1352A - Sum of Round Numbers\1352A - Sum of Round Numbers.csproj", "{A9ADA8A2-3245-4AEF-B3F0-F3CBB11D8EC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{DE0E34DA-6F67-43FA-A459-D37D8501ADD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE0E34DA-6F67-43FA-A459-D37D8501ADD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE0E34DA-6F67-43FA-A459-D37D8501ADD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9ADA8A2-3245-4AEF-B3F0-F3CBB11D8EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9ADA8A2-3245-4AEF-B3F0-F3CBB11D8EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9ADA8A2-3245-4AEF-B3F0-F3CBB11D8EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9ADA8A2-3245-4AEF-B3F0-F3CBB11D8EC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
