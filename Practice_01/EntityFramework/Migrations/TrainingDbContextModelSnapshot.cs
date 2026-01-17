@@ -22,6 +22,49 @@ namespace EntityFramework.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("EntityFramework.Course", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("durationInHours")
+                        .HasColumnType("int");
+
+                    b.Property<double>("fees")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Courses");
+                });
+
+            modelBuilder.Entity("EntityFramework.CourseEnrollment", b =>
+                {
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("studentId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("EnrollmentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<double>("paymentAmount")
+                        .HasColumnType("float");
+
+                    b.HasKey("CourseId", "studentId");
+
+                    b.HasIndex("studentId");
+
+                    b.ToTable("CourseEnrollments", (string)null);
+                });
+
             modelBuilder.Entity("EntityFramework.Students2", b =>
                 {
                     b.Property<int>("Id")
@@ -40,12 +83,77 @@ namespace EntityFramework.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Students2");
+                });
+
+            modelBuilder.Entity("EntityFramework.Topic", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DurationInHours")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("Topics", (string)null);
+                });
+
+            modelBuilder.Entity("EntityFramework.CourseEnrollment", b =>
+                {
+                    b.HasOne("EntityFramework.Course", "Course")
+                        .WithMany("CourseEnrollments")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EntityFramework.Students2", "Student")
+                        .WithMany("EnrolledCourses")
+                        .HasForeignKey("studentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("EntityFramework.Topic", b =>
+                {
+                    b.HasOne("EntityFramework.Course", "Course")
+                        .WithMany("Topics")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+                });
+
+            modelBuilder.Entity("EntityFramework.Course", b =>
+                {
+                    b.Navigation("CourseEnrollments");
+
+                    b.Navigation("Topics");
+                });
+
+            modelBuilder.Entity("EntityFramework.Students2", b =>
+                {
+                    b.Navigation("EnrolledCourses");
                 });
 #pragma warning restore 612, 618
         }

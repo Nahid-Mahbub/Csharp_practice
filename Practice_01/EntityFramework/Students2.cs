@@ -14,7 +14,7 @@ namespace EntityFramework
 
         // শিক্ষার্থীর নাম সংরক্ষণ করার জন্য
         // এটি ডাটাবেসে nvarchar টাইপ হিসেবে থাকবে
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         // শিক্ষার্থীর CGPA সংরক্ষণ করার জন্য
         public double CGPA { get; set; }
@@ -25,5 +25,7 @@ namespace EntityFramework
         // শিক্ষার্থী বর্তমানে active কিনা তা বোঝানোর জন্য
         // true = active, false = inactive
         public bool IsActive { get; set; }
+
+        public List<CourseEnrollment> EnrolledCourses { get; set; } = new List<CourseEnrollment>();
     }
 }
