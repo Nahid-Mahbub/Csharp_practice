@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1399A - Remove Smallest", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "144A - Arrival of the General", "144A - Arrival of the General\144A - Arrival of the General.csproj", "{95FD5B74-6F90-48C5-8E32-0D4AE37F8DBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "148A - Insomnia cure", "148A - Insomnia cure\148A - Insomnia cure.csproj", "{7FF2F42E-517D-4F35-9965-0FC93F4D28B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{95FD5B74-6F90-48C5-8E32-0D4AE37F8DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FD5B74-6F90-48C5-8E32-0D4AE37F8DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95FD5B74-6F90-48C5-8E32-0D4AE37F8DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF2F42E-517D-4F35-9965-0FC93F4D28B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF2F42E-517D-4F35-9965-0FC93F4D28B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF2F42E-517D-4F35-9965-0FC93F4D28B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF2F42E-517D-4F35-9965-0FC93F4D28B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
