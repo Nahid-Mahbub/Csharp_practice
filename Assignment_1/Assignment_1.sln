@@ -65,6 +65,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "148A - Insomnia cure", "148
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1619A - Square String", "1619A - Square String\1619A - Square String.csproj", "{FD68C1F2-E33D-4B4C-B964-53CDBE1696B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1621A - Stable Arrangement of Rooks", "1621A - Stable Arrangement of Rooks\1621A - Stable Arrangement of Rooks.csproj", "{930FC8FC-F08F-4D32-82E6-432AEFC41CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1623A - Robot Cleaner", "A. Robot Cleaner\1623A - Robot Cleaner.csproj", "{12738498-950B-4002-99E2-8B63504C9A34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +199,14 @@ Global
 		{FD68C1F2-E33D-4B4C-B964-53CDBE1696B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD68C1F2-E33D-4B4C-B964-53CDBE1696B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD68C1F2-E33D-4B4C-B964-53CDBE1696B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930FC8FC-F08F-4D32-82E6-432AEFC41CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930FC8FC-F08F-4D32-82E6-432AEFC41CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930FC8FC-F08F-4D32-82E6-432AEFC41CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930FC8FC-F08F-4D32-82E6-432AEFC41CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12738498-950B-4002-99E2-8B63504C9A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12738498-950B-4002-99E2-8B63504C9A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12738498-950B-4002-99E2-8B63504C9A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12738498-950B-4002-99E2-8B63504C9A34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
